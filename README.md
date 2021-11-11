@@ -26,12 +26,18 @@ Users should be able to:
 
 - Desktop
 
+![Destop Social Proof Section](https://user-images.githubusercontent.com/61619208/141259921-fccba1c8-3a23-40d6-a830-5729cc67c7c9.png)
+
+
 - Mobile
+
+![Mobile Social Proof Section](https://user-images.githubusercontent.com/61619208/141259938-b02a4cd9-0c7d-4065-b931-52ed7df377b9.png)
+
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/social-proof-section-using-html-sass-bootstrap-5-and-webpack-5-fqufoJrwA)
+- Live Site URL: [Live](https://front-socialproofsection.netlify.app/)
 
 ## My process
 
