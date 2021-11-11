@@ -1,0 +1,151 @@
+@font-face {
+    font-family: "Spartan";
+    src: url("../fonts/Spartan-Regular.ttf") format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Spartan";
+    src: url("../fonts/Spartan-Medium.ttf") format("truetype");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Spartan";
+    src: url("../fonts/Spartan-Bold.ttf") format("truetype");
+    font-weight: 700;
+}
+
+$backgroundColor: hsl(0, 0%, 100%);
+$veryDarkMagenta: hsl(300, 43%, 22%);
+$darkMagenta: hsl(303, 10%, 53%);
+$lightMagenta: hsl(300, 24%, 96%);
+$softPink: hsl(333, 80%, 67%);
+$smallTextColor: hsl(227, 10%, 46%);
+
+// Ready components
+.star {
+    background-image: url("../img/icon-star.svg");
+    background-repeat: no-repeat;
+    background-attachment: local;
+    width: 17px;
+    height: 16px;
+    margin-left: 0.5rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.rounded-borders {
+    border-radius: 0.5rem;
+}
+
+// Media in small screens
+@media (min-width: 0px) and (max-width: 1200px) {
+
+    .inner-container {
+        padding-right: 0rem !important;
+    }
+
+    h1 {
+        padding-right: 0rem !important;
+    }
+
+    .rate {
+        position: static !important;
+        width: 100% !important;
+    }
+
+    .client {
+        position: static !important
+    }
+}
+
+body {
+    background-color: $backgroundColor;
+    font-family: Spartan, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+
+
+.why-us {
+
+    .inner-container {
+        padding-right: 6rem;
+
+        h1 {
+            padding-right: 2rem;
+            color: $veryDarkMagenta;
+            font-family: Spartan, sans-serif;
+            font-weight: 700;
+        }
+
+        p {
+            color: $darkMagenta;
+        }
+    }
+
+
+}
+
+$margin : 4.5rem;
+
+.our-rating {
+
+    .rate {
+        background-color: $lightMagenta;
+
+        .des {
+            color: $veryDarkMagenta;
+            font-weight: 700;
+        }
+    }
+
+    .rate:nth-child(2) {
+        top: $margin;
+        left: $margin;
+    }
+
+    .rate:last-child {
+        top: calc($margin * 2);
+        left: calc($margin * 2);
+    }
+}
+
+.clients {
+
+    .client {
+        background-color: $veryDarkMagenta;
+
+        .name {
+            color: $lightMagenta;
+            font-weight: 700;
+        }
+
+        .position {
+            color: $softPink;
+            font-weight: 500;
+        }
+
+        .client-comment {
+            color: $lightMagenta;
+        }
+    }
+}
+
+$marginTop : 1.5rem;
+$marginLeft : 25rem;
+
+.clients {
+    min-height: 360px;
+    .client:nth-child(2) {
+        top: $marginTop;
+        left: $marginLeft;
+    }
+
+    .client:last-child {
+        top: calc($marginTop * 2);
+        left: $marginLeft * 2;
+    }
+}
